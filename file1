@@ -1,0 +1,9 @@
+sudo -i
+sudo apt update
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.113/bin/apache-tomcat-9.0.113.tar.gz
+tar -zxvf apache-tomcat-9.0.113.tar.gz
+vim apache-tomcat-9.0.113/conf/tomcat-users.xml
+vim apache-tomcat-9.0.113/webapps/manager/META-INF/context.xml
+sh apache-tomcat-9.0.113/bin/startup.sh
+
+
